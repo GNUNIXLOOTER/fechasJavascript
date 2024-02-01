@@ -1,3 +1,4 @@
+// las fechas son objetos se puede corroborar con console.log(typeof valor)
 // En javascript hay un objeto llamado Date
 const diaHoy = new Date();
 let valor;
@@ -21,13 +22,24 @@ console.log(typeof valor)
 // cumple.toString();
 valor = cumple;
 
+// este nos va traer el mes actual e inicia en cero por ejemplo enero -> mes cero
 valor = diaHoy.getMonth();
 valor = diaHoy.getDate();
 valor = diaHoy.getDay();
+
+// este no va traer el año actual
 valor = diaHoy.getFullYear();
+
+// este no va traer el minuto actual
 valor = diaHoy.getMinutes();
+
+// este no va traer la hora  actual
 valor = diaHoy.getHours();
+
+//este no va traer el minuto actual nos trae los milisegundos
 valor = diaHoy.getTime();
+
+// este nos sirve para establecer la fecha 
 valor = diaHoy.getFullYear();
 valor = diaHoy.setFullYear(2018);
 
